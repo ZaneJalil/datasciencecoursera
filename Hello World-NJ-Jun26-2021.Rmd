@@ -2,7 +2,9 @@
 title: "HelloWorld"
 author: "NJ"
 date: "26/06/2021"
-output: html_document
+output:
+  word_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -18,7 +20,7 @@ When you click the **Knit** button a document will be generated that includes bo
 ```{r cars}
 summary(cars)
 ```
-## This is a markdown file 
+## This is a markdown file <-- instructions FRom Coursera final assignment
 
 ## Including Plots
 
